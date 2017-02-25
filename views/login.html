@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <title>{{ title }}</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <script>
+    var config = {
+      digitsConsumerKey: '{{ DIGITS_CONSUMER_KEY }}'
+    };
+  </script>
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script id="digits-sdk" src="https://cdn.digits.com/1/sdk.js" async></script>
+  <script src="/js/digits.js"></script>
+</head>
+<body>
+	<div class="digits">
+      <button class="digits-button">Sign In with Phone</button>
+    </div>		
+</body>
+</html>
